@@ -1,0 +1,1023 @@
+* {
+    /* background-color: #EEEEEE; */
+    padding: 0;
+    margin: 0;
+}
+.web {
+    background-color: #EEEEEE;
+}
+
+.hide {
+    display: none;
+}
+
+/*  ------------------------------- NAVBAR SECTION  ------------------------------- */
+
+
+.navbar {
+    background-color: #EEEEEE;
+}
+.navbar-brand {
+    color: black;
+    font-size: 3.5rem;
+    cursor: pointer;
+    font-family: 'Sacramento', cursive;
+}
+.navbar-logo {
+    margin-left: 2%;
+    margin-top: 0.8%;
+}
+.navbar-logo:hover {
+    color: #000;
+}
+.navbar-name {
+    color: black;
+    font-size: 3rem;
+}
+.navbar-name:hover{
+    color: #000;
+}
+@media (min-width: 992px) {
+    .navbar-names {
+        color: black;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-right: 1.5rem;
+        position: relative;
+        right: 25%;
+        margin-right: 15px;
+    }
+    .navbar-names:hover {
+        color: #3F72AF;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-names {
+        color: black;
+        font-family: 'Josefin Sans', sans-serif;
+        justify-content: center;
+    }
+    .navbar-names:hover {
+        color: #3F72AF;
+    }
+}
+.upwork-btn {
+    margin-right: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #393E46;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.upwork-btn:hover {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+.upwork-link {
+    text-decoration: none;
+    color: #fff;
+}
+.upwork-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*  ------------------------------- HOME PAGE SECTION  ------------------------------- */
+
+
+.download-btn {
+    text-align: center;
+    font-family: "McLaren", cursive;
+}
+.download-btn2 {
+    font-family: "McLaren", cursive;
+}
+.popup-paragraph {
+    font-family: "McLaren", cursive;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .first-content {
+        padding-top: 10%;
+        padding-left: 5%;
+        text-align: left;
+    }
+    .home-title {
+        font-family: 'Sacramento', cursive;
+        font-size: 4rem;
+        margin-left: 8%;
+        text-align: center;
+    }
+    .home-paragraph {
+        font-family: 'Gentium Plus', serif;
+        padding-top: 5%;
+        line-height: 1.9;
+        padding-left: 14%;
+        text-align: left;
+    }
+    .download-btn {
+        margin: 5% 3% 5% 0;
+        position: relative;
+        right: 3%;
+        background-color: #222831;
+        color: #fff;
+    }
+    .download-btn2 {
+        margin: 5% 3% 5% 0;
+    }
+    .download-btn2:hover {
+        color: #fff;
+        background-color: #222831;
+    }
+    .profile-picture {
+        margin-top: 15%;
+        margin-left: 18%;
+        width: 77.28%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .first-content {
+        padding-top: 15%;
+        padding-left: 5%;
+        text-align: left;
+    }
+    .home-title {
+        font-family: 'Sacramento', cursive;
+        font-size: 3.5rem;
+        text-align: center;
+        
+    }
+    .home-paragraph {
+        font-family: 'Gentium Plus', serif;
+        padding-top: 3%;
+        text-align: left;
+        margin-left: 7%;
+        line-height: 1.9;
+    }
+    .d-flex {
+        flex-direction: row;
+        align-items: center;
+    }
+    .download-btn {
+        margin: 5% 3% 5% 0;
+        background-color: #222831;
+        color: #fff;
+    }
+    .download-btn2:hover {
+        color: #fff;
+        background-color: #222831;
+    }
+    .profile-picture {
+        padding-right: 2%;
+        padding-top: 22%;
+        margin-left: 9%;
+        margin-bottom: 48px;
+        padding-right: 0%;
+        margin-top: 44px;
+        width: 87%;
+    }
+
+}
+@media (max-width: 767px) {
+    .first-content {
+        padding-top: 15%;
+        padding-left: 5%;
+        text-align: left;
+    }
+    .home-title {
+        font-family: 'Sacramento', cursive;
+        font-size: 4rem;
+        text-align: center;
+    }
+    .home-paragraph {
+        font-family: 'Gentium Plus', serif;
+        padding-top: 3%;
+        text-align: center;
+        line-height: 1.9;
+        
+    }
+    .d-flex {
+        flex-direction: row;
+        align-items: center;
+    }
+    .download-btn {
+        margin: 5% 3% 5% 0;
+        background-color: #222831;
+        color: #fff;
+    }
+    .download-btn2:hover {
+        color: #fff;
+        background-color: #222831;
+    }
+    .profile-picture {
+        padding-top: 1px;
+        margin-left: 22%;
+        margin-top: 0px;
+        margin-bottom: -22%;
+        padding-bottom: 137px;
+        width: 55%;
+    }
+}
+
+
+/*  ------------------------------- SKILLS SECTION ------------------------------- */
+
+.skills-page {
+    padding-top: 25px;
+    /* padding-left: 12%;
+    padding-right: 10%; */
+    text-align: center;
+}
+.skills-title {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 3%;
+    padding-top: 30px;
+    color: #181D31;
+}
+
+.skills {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #181D31; 
+    padding-bottom: 3%;
+}
+.skills-list {
+    font-family: 'Gentium Plus', serif;
+    /* text-align: left; */
+
+}
+.container-fluid {
+    display: inline-block;
+}
+@media (max-width: 991px) {
+    .skills-page {
+        /* padding-top: 8%; */
+        /* padding-left: 20%;
+        padding-right: 10%; */
+        text-align: center;
+    }
+    .skills-title {
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        color: #181D31;
+    }
+    
+    .skills {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31; 
+    }
+    .skills-list {
+        font-family: 'Gentium Plus', serif;
+        
+    }
+    .container-fluid {
+        display: inline-block;
+    }
+
+}
+
+
+/*  ------------------------------- PROJECT SECTION  ------------------------------- */
+
+.project-page {
+    padding-left: 3%;
+    padding-right: 5%;
+    text-align: center;
+}
+.project-title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #181D31; 
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.project-title2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #181D31; 
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.project-list {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #181D31; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.project-paragraph {
+    font-family: 'Gentium Plus', serif;
+}
+.project-logo {
+    padding-top: 5%;
+}
+.btn-one {
+    color: #fff;
+}
+.icon {
+    color: #fff;
+}
+.btn-one:hover .project-icon {
+    color: #fff;
+    fill: #fff;
+    background-color: #222831;
+    text-decoration: none;
+    opacity: 1;
+    background-color: #fff;
+}
+.btn-one:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.showmore-btn {
+    text-align: center;
+    font-family: "McLaren", cursive;
+    background-color: #222831;
+}
+.blur {
+    filter: blur(2px);
+    pointer-events: none;
+}
+.blur2 {
+    filter: blur(1px);
+    pointer-events: none;
+}
+.btn-one-one .btn-two-two {
+    color: #fff;
+}
+
+.btn-one-one:hover {
+    color: #fff;
+    background-color: #222831;
+    text-decoration: none;
+}
+
+.btn-one-one:hover .project-icon {
+    color: #fff;
+    fill: #fff;
+    opacity: 1;
+    background-color: #fff;
+}
+.icon {
+    color: #fff;
+}
+.showmore-btn {
+    text-align: center;
+    font-family: "McLaren", cursive;
+    background-color: #222831;
+}
+.btn-one-one:hover .btn-one-two {
+    color: #fff;
+    text-decoration: none;
+}
+@media (min-width: 992px) {
+    .project-title {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31; 
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+    .project-title2 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31; 
+        font-weight: bold;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    .facebook {
+        margin-left: 25%;
+    }
+    .apple {
+        margin-right: 25%;
+    }
+
+}
+
+
+.btn-two-one .btn-rwo-two {
+    color: #3F72AF;
+}
+
+.btn-two-one:hover {
+    color: #fff;
+    background-color: #181D31;
+    text-decoration: none;
+}
+
+.btn-two-one:hover .project-icon {
+    color: #fff;
+    fill: #fff;
+    opacity: 1;
+    background-color: #fff;
+}
+.btn-two-one:hover .btn-two-two {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/*  ------------------------------- SERVICE SECTION  ------------------------------- */
+.service-backend-paragraph {
+    font-family: 17px;
+}
+@media (min-width: 769px) {
+    .service-title {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31; 
+        font-weight: bold;
+        text-align: center;
+        padding-top: 8%;
+    }
+    .service-frontend-page {
+        padding-left: 8%;
+        padding-right: 10%;
+    }
+    .service-frontend-title {
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 5%;
+        padding-left: 55%;
+        color: #181D31;
+    }
+    .service-frontend-paragraph {
+        font-family: 'Gentium Plus', serif;
+        padding-top: 5%;
+        margin-right: 5%;
+        text-align: left;
+    }
+    .frontend-picture {
+        margin-left: 30%;
+    }
+    .database-picture {
+        margin-left: 30%;
+    }
+    .service-backend-page {
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+    .service-backend-title {
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 8%;
+        padding-left: 4%;
+        color: #181D31;
+    }
+    .service-backend-paragraph {
+        font-family: 'Gentium Plus', serif;
+        padding-top: 8%;
+        text-align: left;
+    }
+    .backend-picture {
+        margin-left: 30%;
+    }
+    .deployment-picture {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .service-title {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31; 
+        font-weight: bold;
+        text-align: center;
+        padding-top: 15%;
+        padding-bottom: 8%;
+    }
+    .service-frontend-page {
+        padding: 0;
+        margin: 0;
+    }
+    .container1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cont-a {
+        order: 2;
+    }
+    .cont-b {
+        order: 1;
+    }
+    .frontend-picture, .backend-picture, .database-picture, .deployment-picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        padding-top: 3%;
+    }
+    .service-frontend-title {
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: #181D31;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .service-frontend-paragraph {
+        font-family: 'Gentium Plus', serif;
+        text-align: center;
+    }
+    .service-backend-page {
+        padding: 0;
+        margin: 0;
+    }
+    .service-backend-title {
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        color: #181D31;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .service-backend-paragraph {
+        font-family: 'Gentium Plus', serif;
+        text-align: center;
+    }
+
+}
+
+/*  ------------------------------- ABOUT ME SECTION  ------------------------------- */
+
+
+@media (min-width: 992px) {
+    .about-title {
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        font-weight: bold;
+        color: #181D31;
+    }
+    .about-paragraph {
+        font-family: 'Gentium Plus', serif;
+        line-height: 1.9;
+        padding-right: 15%;
+        text-align: left;
+    }
+    .profile-picture2 {
+        width: 60%;
+        margin-top: -8%;
+        margin-left: 22%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .about-title {
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        padding-left: 55%;
+        text-align: center;
+        font-weight: bold;
+        color: #181D31;
+    }
+    .about-paragraph {
+        font-family: 'Gentium Plus', serif;
+        line-height: 1.9;
+        padding-right: 15%;
+        text-align: left;
+    }
+    .profile-picture2 {
+        padding-top: 2%;
+        padding-right: 2%;
+        margin-left: 25%;
+        width: 60%;
+    }
+}
+@media (max-width: 767px) {
+    .about-title {
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 15%;
+        padding-bottom: 10%;
+        text-align: center;
+        font-weight: bold;
+        color: #181D31;
+    }
+    .about-paragraph {
+        line-height: 1.9;
+        font-family: 'Gentium Plus', serif;
+        padding-top: 10%;
+        text-align: center;
+    }
+    .profile-picture2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        padding-top: 2%;
+        margin-bottom: -10%;
+    }
+
+}
+
+/* ------------------------------- CONTACT ME SECTION ------------------------------- */
+
+
+@media (min-width: 992px) {
+    .contact-title {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31; 
+        padding-bottom: 5%;
+        font-weight: bold;
+        text-align: center;
+    }
+    form {
+        margin-left: 0%;
+    }
+    .contactme-box {
+        margin-right: 5%;
+        background-color: #fff;
+        border: 0.5px solid grey;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 2%;
+        margin-top: 1%;
+        border-radius: 18px;
+    }
+    .contactme-name {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .message-box {
+        border: 0.5px solid grey;
+        background-color: #fff;
+        border-radius: 15px;
+        padding-left: 2%;
+        margin-top: 3%;
+        /* margin-left: 5%; */
+    }
+    .contactme-btn {
+        font-family: 'Gentium Plus', serif;
+        color: #181D31;
+        margin-left: 60%;
+        margin-top: 20px;
+        margin-bottom: 5%;
+        border: 5.5px solid grey;
+    
+    }
+    .contactme-btn:hover {
+        color: #fff;
+        background-color: #393E46;
+    }
+    .contact-me-list {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31;
+        padding-left: 35%;
+    }
+    .contactme-link1 {
+        color: #3F72AF;
+    }
+    .contactme-link1:hover {
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .contact-page {
+        align-items: center;
+    }
+    .contact-title {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31; 
+        padding-top: 8%;
+        padding-bottom: 5%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .contactme-name {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31;
+        text-decoration: none;
+        font-weight: bold;
+        padding-left: 15%;
+    }
+    .contactme-box {
+        margin-right: 5%;
+        background-color: #fff;
+        border: 0.5px solid grey;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 2%;
+        margin-top: 1%;
+        border-radius: 18px;
+    }
+    .contactme-btn {
+        font-family: 'Gentium Plus', serif;
+        color: #181D31;
+        margin-left: 60%;
+        margin-top: 20px;
+        margin-bottom: 5%;
+        border: 5.5px solid grey;
+    }
+    .contactme-btn:hover {
+        color: #fff;
+        background-color: #393E46;
+    }
+    .message-box {
+        border: 0.5px solid grey;
+        background-color: #fff;
+        border-radius: 15px;
+        padding-left: 2%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .contact-me-list {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31;
+        padding-left: 25%;
+    }
+    .contactme-link1 {
+        color: #3F72AF;
+    }
+    .contactme-link1:hover {
+        text-decoration: none;
+    }
+}
+@media (max-width: 767px) {
+    .contact-title {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31; 
+        padding-top: 8%;
+        padding-bottom: 5%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .contactme-name {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31;
+        text-decoration: none;
+        font-weight: bold;
+        padding-left: 5%;
+    }
+    .name {
+        padding-top: 8%;
+    }
+    .contactme-box {
+        margin-right: 5%;
+        background-color: #fff;
+        border: 0.5px solid grey;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 2%;
+        margin-top: 1%;
+        border-radius: 18px;
+    }
+    .contactme-btn {
+        font-family: 'Gentium Plus', serif;
+        color: #181D31;
+        margin-left: 60%;
+        margin-top: 20px;
+        margin-bottom: 5%;
+        border: 5.5px solid grey;
+    }
+    .contactme-btn:hover {
+        color: #fff;
+        background-color: #393E46;
+    }
+    .message-box {
+        border: 0.5px solid grey;
+        background-color: #fff;
+        border-radius: 15px;
+        padding-left: 2%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .contact-me-list {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #181D31;
+        /* padding-left: 25%; */
+        text-align: center;
+    }
+    .contactme-link1 {
+        color: #3F72AF;
+    }
+    .contactme-link1:hover {
+        text-decoration: none;
+    }
+}
+
+/* ------------------------------- FOOTER SECTION ------------------------------- */
+
+@media (min-width: 992px) {
+    .foot {
+        /* background-color: #181D31; */
+        background-color: #393E46;
+    }
+    .footer-title {
+        font-family: 'Sacramento', cursive;
+        color: #fff;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 4rem;
+    }
+    .footer-title2 {
+        font-family: 'Gentium Plus', serif;
+        color: #fff;
+        text-align: center;
+    }
+    .footer-list {
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .contact-me {
+        color: #fff;
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 2%;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    .contactme-link:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+    .contactme-link {
+        margin-right: 16px;
+        color: #fff;
+    }
+    .copyright-part {
+        background-color: #222831;
+    }
+    .copyright {
+        color: #fff;
+        font-size: 0.9rem;
+        padding-top: 2%;
+        text-align: center;
+    }
+}
+@media (min-width: 576px) and (max-width: 991px){
+    .foot {
+        /* background-color: #181D31; */
+        background-color: #393E46;
+    }
+    .footer-title {
+        font-family: 'Sacramento', cursive;
+        color: #fff;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 4rem;
+    }
+    .footer-title2 {
+        font-family: 'Gentium Plus', serif;
+        color: #fff;
+        text-align: center;
+    }
+    .footer-list {
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .contact-me {
+        color: #fff;
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 2%;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    .contactme-link:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+    .contactme-link {
+        margin-right: 16px;
+        color: #fff;
+    }
+    .copyright-part {
+        background-color: #222831;
+    }
+    .copyright {
+        color: #fff;
+        font-size: 0.9rem;
+        padding-top: 2%;
+        text-align: center;
+    }
+}
+@media (max-width: 575px) {
+    .foot {
+        /* background-color: #181D31; */
+        background-color: #393E46;
+    }
+    .footer-title {
+        font-family: 'Sacramento', cursive;
+        color: #fff;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 4rem;
+    }
+    .footer-title2 {
+        font-family: 'Gentium Plus', serif;
+        color: #fff;
+        text-align: center;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .footer-list {
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .contact-me {
+        color: #fff;
+        text-align: center;
+        font-size: 1.6rem;
+        padding-top: 2%;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    .contactme-link:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+    .contactme-link {
+        margin-right: 12px;
+        color: #fff;
+    }
+    .copyright-part {
+        background-color: #222831;
+    }
+    .copyright {
+        color: #fff;
+        font-size: 0.9rem;
+        padding-top: 2%;
+        text-align: center;
+    }
+}
+
+/* ------------------RATEING BUTTON -------------------------  */
+.rating-button {
+    background-color: #393E46;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    font-family: "McLaren", cursive;
+    margin-bottom: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.rating-button:hover {
+    background-color: #222831;
+}
